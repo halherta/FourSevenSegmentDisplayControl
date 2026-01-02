@@ -1,6 +1,6 @@
 # FourSevenSegmentDisplayControl
 
-![photo of seven segment led interfacing to raspberry pi](https://github.com/halherta/FourSevenSegmentDisplayControl/blob/main/foursevensegmentdisplaycontrol/images/seven_segment_display_photo.jpg)
+![photo of seven segment led interfacing to raspberry pi](https://github.com/halherta/FourSevenSegmentDisplayControl/blob/main/images/seven_segment_display_photo.jpg)
 
 A Python library for controlling 4-digit seven-segment displays on Raspberry Pi using the modern Linux GPIOD driver (libgpiod 2.x).
 
@@ -34,7 +34,7 @@ The library requires 12 GPIO pins total:
 - 1 pin for decimal point (DP)
 - 4 pins for digit selection (DIG1-4)
 
-![breadboard diagram](https://github.com/halherta/FourSevenSegmentDisplayControl/blob/main/foursevensegmentdisplaycontrol/images/seven_segment_display_breadboard.png)
+![breadboard diagram](https://github.com/halherta/FourSevenSegmentDisplayControl/blob/main/images/seven_segment_display_breadboard.png)
 
 ### Connection Details
 
@@ -44,7 +44,7 @@ The library requires 12 GPIO pins total:
 
 This configuration ensures that current from multiple LEDs doesn't flow through a single GPIO pin, protecting your Raspberry Pi.
 
-![schematic diagram](https://github.com/halherta/FourSevenSegmentDisplayControl/blob/main/foursevensegmentdisplaycontrol/images/seven_segment_display_schematic.png)
+![schematic diagram](https://github.com/halherta/FourSevenSegmentDisplayControl/blob/main/images/seven_segment_display_schematic.png)
 
 ### Example Pin Configuration
 
